@@ -1,0 +1,110 @@
+body {
+    height: 100%;
+}
+div#main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+#main .container {
+    margin: 200px;
+}
+div#sidebar {
+    width: 250px;
+    height: 95.3%;
+    position: absolute;
+}
+#sidebar-field {
+    border-top: 1px solid gray;
+}
+#sidebar .sidebar-item {
+    position: relative;
+    height: 50px;
+    padding: 10px;
+    display: inline-flex;
+    font-size: 15px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    color: #cacaca;
+    font-weight: 700;
+}
+#sidebar .sidebar-item:hover,
+#sidebar .sidebar-item.active {
+    color: white;
+    text-decoration: unset;
+    background: #ffffff59;
+}
+
+#sidebar .sidebar-item .sidebar-icon {
+    width: 11%;
+    padding: auto;
+}
+.container-fluid.admin {
+    padding: 20px;
+    width: 80%;
+    max-width: inherit;
+    margin-left: 250px;
+}
+.container-fluid.admin2 {
+    padding: 20px;
+    max-width: inherit;
+    height: 100%;
+}
+.attendance_log_field {
+    top: 20%;
+    position: relative;
+}
+#company-logo-field {
+    display: flex;
+}
+#company-logo-field h4,
+#company-logo-field img {
+    margin: auto;
+}
+#log_display {
+    /* font-weight: bold; */
+    font-size: 17px;
+}
+
+.extra {
+    background-color: #e9e2e2;
+}
+.attend-log {
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+    background-color: #7b7f83;
+    color: #fff;
+}
+
+.my-btn {
+    background-color: rgb(42, 41, 41);
+    color: white;
+    border: none;
+}
+
+.my-btn:hover , .my-btn:active{
+    background-color: black;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.my-form {
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0.3rem;
+}
+.my-form:focus {
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.message {
+    background-color: hsl(140, 42%, 95%);
+    border-color: hsl(140, 40%, 65%);
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 2rem;
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+	display: none;
+}
